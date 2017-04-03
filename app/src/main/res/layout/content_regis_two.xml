@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fikrirahmanto.justinmind.RegisTwo"
+    tools:showIn="@layout/activity_regis_two">
+
+    <RelativeLayout
+        android:layout_width="384dp"
+        android:layout_height="516dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="350dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/progressBar"
+            android:layout_alignStart="@+id/progressBar"
+            android:layout_below="@+id/progressBar"
+            android:layout_marginTop="170dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Let's begin! So are you already familiar with mutual funds?" />
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText14"
+            android:layout_alignLeft="@+id/editText14"
+            android:layout_alignStart="@+id/editText14"
+            android:layout_marginBottom="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:background="@android:color/transparent"
+            tools:text="Okay" />
+
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:layout_alignBaseline="@+id/editText15"
+            android:layout_alignBottom="@+id/editText15"
+            android:layout_toRightOf="@+id/editText15"
+            android:background="@android:color/transparent"
+            android:layout_toEndOf="@+id/editText15" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="A. Yes, I am"
+            android:layout_below="@+id/editText14"
+            android:layout_alignLeft="@+id/editText14"
+            android:layout_alignStart="@+id/editText14"
+            android:layout_marginTop="12dp"
+            android:layout_alignRight="@+id/progressBar"
+            android:layout_alignEnd="@+id/progressBar" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="B. No, not yet"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/button11"
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button11"
+            android:layout_alignRight="@+id/button11"
+            android:layout_alignEnd="@+id/button11" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:layout_below="@+id/progressBar"
+            android:layout_alignLeft="@+id/progressBar"
+            android:layout_alignStart="@+id/progressBar" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

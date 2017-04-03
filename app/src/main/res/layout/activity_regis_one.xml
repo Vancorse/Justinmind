@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fikrirahmanto.justinmind.RegisOne">
+
+    <RelativeLayout
+        android:layout_width="382dp"
+        android:layout_height="517dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-4dp">
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="117dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Hi" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText11"
+            android:layout_alignBottom="@+id/editText11"
+            android:layout_toEndOf="@+id/editText11"
+            android:layout_toRightOf="@+id/editText11"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/action_settings" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/nameText1"
+            android:layout_alignLeft="@+id/editText11"
+            android:layout_alignRight="@+id/nameText1"
+            android:layout_alignStart="@+id/editText11"
+            android:layout_below="@+id/editText11"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:background="@android:color/transparent"
+            android:text="Are you a Mandiri Investasi Customer?" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText13"
+            android:layout_alignStart="@+id/editText13"
+            android:layout_below="@+id/editText13"
+            android:layout_marginTop="21dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="A. Yes, I am" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:text="B. No"
+            android:layout_below="@+id/button9"
+            android:layout_alignLeft="@+id/button9"
+            android:layout_alignStart="@+id/button9"
+            android:layout_marginTop="11dp"
+            android:onClick="goToRegisTwo"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

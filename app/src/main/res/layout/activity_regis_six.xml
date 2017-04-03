@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fikrirahmanto.justinmind.RegisSix">
+
+    <ScrollView
+        android:layout_width="384dp"
+        android:layout_height="510dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-12dp">
+
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="350dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/progressBar4"
+                android:layout_alignStart="@+id/progressBar4"
+                android:layout_below="@+id/progressBar4"
+                android:text="7%" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="lengthy text goes here blablablablablablablabla" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/progressBar4"
+                android:layout_alignRight="@+id/progressBar4"
+                android:layout_below="@+id/editText7"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/textView4"
+                android:background="@android:color/holo_orange_light"
+                android:text="ksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbvksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbvksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbv" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button17"
+                android:layout_alignLeft="@+id/button17"
+                android:layout_alignRight="@+id/button17"
+                android:layout_alignStart="@+id/button17"
+                android:layout_below="@+id/button17"
+                android:layout_marginTop="19dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="ksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbvksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbvksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbv" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button18"
+                android:layout_alignLeft="@+id/button18"
+                android:layout_alignRight="@+id/button18"
+                android:layout_alignStart="@+id/button18"
+                android:layout_below="@+id/button18"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="ksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbvksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbvksjdfbksbfkjvbwfjbvs,jdbvkjsbd,vbsdbvksdbvkjsdbvkjsbdvsdbvskjdbvsljdbvlsdbv" />
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
